@@ -17,3 +17,26 @@ Aadd(aMatriz, {'Título', 123})
 aArray := aClone(aMatriz);
 
 Return
+
+
+#Include 'Totvs.ch'
+
+User Function tstArray1
+aVetor := Array(3)
+aMatriz := Array(3,2)
+
+Aadd(aMatriz, {'Título', 123})
+
+aArray := aClone(aMatriz);
+
+aVetor[1] :="Protheus"
+aVetor[2] :="rotheus"
+aVetor[3] :="otheus"
+
+aSort(aVetor)
+
+
+aVetor[1] :="Protheus"
+aVetor[2] :="rotheus"
+
+Return
